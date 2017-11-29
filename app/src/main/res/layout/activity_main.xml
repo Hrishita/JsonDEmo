@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bri1"
+    android:orientation="vertical">
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:fontFamily="cursive"
+       android:id="@+id/tv"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="70dp"
+        android:text="Great Indian Wedding"/>
+
+</LinearLayout>
